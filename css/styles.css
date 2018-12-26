@@ -1,0 +1,42 @@
+/********** TAG SELECTORS ****/
+
+body {
+  background-color: #EEEEEE;
+  color: #222831;
+}
+
+h1, h3 {
+  color: #212121;
+}
+
+/*
+h1:hover {
+  color: red;
+}
+*/
+
+hr {
+  background-color: transparent;
+  border-style: none;
+  border-top-color: #CCCCCC;
+  border-top-style: dotted;
+  border-top-width: 7px;
+  width: 65px;
+}
+
+
+/********** CLASS SELECTORS ** a group of elements that need to have the styles **/
+
+/* Would have class="something" in the HTML tag */
+.something {
+  background-color: blue;
+}
+
+
+/********** ID SELECTORS ** only one single instance per file/project **/
+/* better to avoid the use of it so you don't have conflict with future JS */
+
+/* Would have id="heading" in the HTML tag */
+#heading {
+  background-color: Red;
+}
